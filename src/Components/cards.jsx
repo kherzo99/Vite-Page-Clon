@@ -8,7 +8,7 @@ export default function CardGenerator(props) {
         <div className="icon-holder">
           <h2> {icon} </h2>
         </div>
-        <h1>{textbig}</h1>
+        <h3>{textbig}</h3>
         <p>{textsmall}</p>
       </div>
     </>

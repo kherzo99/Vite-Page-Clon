@@ -10,13 +10,14 @@ export default function App() {
         <div className="text-holder">
           <h1>
             <div className="gradient-title">
-              <h2> Vite 2 </h2>
+              <h2> Vite </h2>
             </div>
-            <p>Next Generation Front End Tooling</p>
-            <p>
+            <p>Next Generation </p>
+            <p>Front End Tooling</p>
+            <h5>
               Get ready for a development environment that can finally catch up
               with you.
-            </p>
+            </h5>
           </h1>
         </div>
         <div className="logo-container">
@@ -39,33 +40,28 @@ export default function App() {
         ></CardGenerator>
         <CardGenerator
           icon="⚡️"
-          textbig="Instant Server Start"
-          textsmall="On demand file serving over native ESM,
-        no bundling required!"
+          textbig="Lightning Fast HMR"
+          textsmall="Hot Module Replacement (HMR) that stays fast regardless of app size."
         ></CardGenerator>
         <CardGenerator
           icon="🛠"
-          textbig="Instant Server Start"
-          textsmall="On demand file serving over native ESM,
-        no bundling required!"
+          textbig="Rich Features"
+          textsmall="Out-of-the-box support for TypeScript, JSX, CSS and more."
         ></CardGenerator>
         <CardGenerator
           icon="📦"
-          textbig="Instant Server Start"
-          textsmall="On demand file serving over native ESM,
-        no bundling required!"
+          textbig="Optimized Build"
+          textsmall="Pre-configured Rollup build with multi-page and library mode support."
         ></CardGenerator>
         <CardGenerator
           icon="🔩"
-          textbig="Instant Server Start"
-          textsmall="On demand file serving over native ESM,
-        no bundling required!"
+          textbig="Universal Plugins"
+          textsmall="Rollup-superset plugin interface shared between dev and build."
         ></CardGenerator>
         <CardGenerator
           icon="🔑"
-          textbig="Instant Server Start"
-          textsmall="On demand file serving over native ESM,
-        no bundling required!"
+          textbig="Fully Typed APIs"
+          textsmall="Flexible programmatic APIs with full TypeScript typing."
         ></CardGenerator>
       </div>
     </>
