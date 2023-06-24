@@ -9,7 +9,9 @@ export default function App() {
       <div className="main-container">
         <div className="text-holder">
           <h1>
-            Vite
+            <div className="gradient-title">
+              <h2> Vite 2 </h2>
+            </div>
             <p>Next Generation Front End Tooling</p>
             <p>
               Get ready for a development environment that can finally catch up
