@@ -1,3 +1,3 @@
 export default function Buttons(props) {
-  return <button> {props.text} </button>;
+  return <a> {props.text} </a>;
 }
